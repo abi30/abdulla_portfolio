@@ -93,7 +93,7 @@ class PortFolio {
 // projectUrl;
   
 
-new PortFolio(0,"My Portfolio","myPortfolio.png","Front-end Development","HTML,SCSS,Bootstrap and javaScript.","Yes,the very website yur are currently looking at.It is written in HTML, SCSS and Bootstrap with a touch of JS and Jquery.I itentionally didn't use frontend framework.","https://github.com/abi30/abdulla-Portfolio.git","http://alrakib.codefactory.live/");
+new PortFolio(0,"My Portfolio","myPortfolio.png","Front-end Development","HTML,SCSS,Bootstrap and javaScript.","Yes,the very website yur are currently looking at.It is written in HTML, SCSS and Bootstrap with a touch of JS and Jquery.I itentionally didn't use frontend framework.","https://github.com/abi30/abdulla_portfolio.git","https://abi30.github.io/abdulla_portfolio/");
 
 new PortFolio(1,"Angular Project","angularProject.png","Front-end Development"," HTML and CSS Bootstrap and Angular.","In this Project,I had to create a travel agency web application using Angular. In this project,There are also Travels shopping cart.customer can purchase their Travelling packages.","https://github.com/abi30/FE21-CR6-ABDULLA.git","http://alrakib.codefactory.live/angularProj/index.html");
 

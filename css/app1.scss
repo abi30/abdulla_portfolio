@@ -12,6 +12,7 @@
     font-family: " great vibes";
     src: url(font/GreatVibes-Regular.ttf);
   }
+  @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
   
   /********* NAVBAR STARTS *********/
   
@@ -45,14 +46,13 @@
           
           padding: 7px 15px;
           line-height: 22px;
-        
-        
+          font-size: 20px;
           letter-spacing: 1px;
 
           color: #ffffff;
           font-weight: bold;
           font-family: 'Josefin Sans', sans-serif;
-          font-size: 20px;
+         
           background-color: #0000ff;
       
 
@@ -99,16 +99,13 @@
   
   @media only screen and (max-width: 480px) {
 
-    // #menu a{
-    // background-color:transparent;
-
-    // }
+   
     .menu-item a {
-      background: transparent !important;
+      background: none !important;
   
       &:hover {
         text-decoration: none;
-        background-color: #6ea5f7;
+        background-color: #f7e708;
       }
     }
   
@@ -380,7 +377,9 @@
     letter-spacing: 1px;
     font-weight: 600;
     margin: 1.5rem 0rem;
-    font-family: 'Great Vibes', cursive;
+    // font-family: 'Great Vibes', cursive;
+    font-family: 'Nanum Gothic', sans-serif;
+
   }
   
   .bottomTextSkills {
@@ -475,6 +474,9 @@
       }
   
       div {
+        font-family: 'Nanum Gothic', sans-serif;
+        letter-spacing:0.25px;
+        justify-items: center;
         position: relative;
         bottom: 5px;
         width: 400px;
@@ -532,6 +534,7 @@
         bottom: 0;
         left: 30px;
       }
+      
     }
   
     ul li {
