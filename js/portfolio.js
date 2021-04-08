@@ -44,17 +44,19 @@ class PortFolio {
         </div>
 
 
-        <div class="card-body">
+      
     `
   }
     //display only the inner part of "card-body"
   display() {
 
     return `
-      
+        <div class="card-body">
        
-        <div> <h6 class="card-title textColor-6 fw-bold">UsingTools : ${this.projectUsingTools}</h6></div>
-        <div> <p class="card-text textColor-6">${this.projectDiscription}</p></div>
+         <h6 class="card-title textColor-6 fw-bold">UsingTools : ${this.projectUsingTools}</h6>
+        <p class="card-text textColor-6">${this.projectDiscription}</p>
+      
+         </div>
         `
   }
     // display only the last part of "col"
@@ -62,22 +64,23 @@ class PortFolio {
 
     return `
    
-        <div class="btn-group">
-        <a 
-        type="button" 
-        class="btn btn-sm bgColor-1 product-btn1"
-        href="${this.codeUrl}"target="_blank">View Code</a>
-        <a 
-        type="button" 
-        class="btn btn-sm btn-secondary product-btn2"
-        href="${this.projectUrl}"target="_blank">View Details</a>
-  
+        <div class ="card-footer mb-3">
+        
+             <div class="btn-group">
+                <a 
+                type="button" 
+                class="btn btn-sm bgColor-1 product-btn1"
+                href="${this.codeUrl}"target="_blank">View Code</a>
+                <a 
+                type="button" 
+                class="btn btn-sm btn-secondary product-btn2"
+                href="${this.projectUrl}"target="_blank">View Details</a>
+              </div>
+       
+      </div>
 
-        </div>
-        </div>
-
-        </div>
-        </div>
+     </div>
+    </div>
     
     `
   }
