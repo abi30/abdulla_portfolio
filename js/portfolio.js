@@ -32,7 +32,7 @@ class PortFolio {
         <div class="col cardZoom text-center" id="cardZoom${this.projectId}">
 
 
-        <div class="card h-100 w-100 rounded-3 shadow bgColor-4 ">
+        <div class="card h-100 w-100 rounded-3  bgColor-8 ">
         <h5 class="card-title textColor-1 fw-bold pt-1">${this.projectName}</h5>
 
 

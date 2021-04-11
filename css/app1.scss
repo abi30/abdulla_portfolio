@@ -648,6 +648,7 @@
   section.portfolio {
     width: 100%;
     margin: 0;
+    
   }
   
   .ownImgDiv .portfolio {
@@ -733,7 +734,10 @@
     margin-top:5px;
 
   }
-  
+
+  .card {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  } 
 
   }
 
@@ -779,6 +783,10 @@
 
   }
 
+  .card-footer{
+    border-style: none;
+    background-color: transparent;
+  }
 
   
 
@@ -984,6 +992,10 @@
   
   .bgColor-7 {
     background-color: #5f6679;
+  
+  }
+  .bgColor-8 {
+    background-color:#6ea5f7;
   }
   
   /* font color variables*/
@@ -1009,7 +1021,7 @@
   }
   
   .textColor-6 {
-    color: #F5C518;
+    color: #ffee05;
   }
   
   .textColor-7 {

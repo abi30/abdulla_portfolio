@@ -680,6 +680,11 @@ img.portfolio {
   margin-top: 5px;
 }
 
+.portfolio .card {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
 @media screen and (max-width: 480px) {
   img.portfolio {
     height: inherit;
@@ -691,6 +696,11 @@ img.portfolio {
     padding: 2rem !important;
     background: #50709979 !important;
   }
+}
+
+.card-footer {
+  border-style: none;
+  background-color: transparent;
 }
 
 /**********************************CONTACT***************************/
@@ -883,6 +893,10 @@ div.cardTools > p {
   background-color: #5f6679;
 }
 
+.bgColor-8 {
+  background-color: #6ea5f7;
+}
+
 /* font color variables*/
 .textColor-1 {
   color: #fff;
@@ -905,7 +919,7 @@ div.cardTools > p {
 }
 
 .textColor-6 {
-  color: #F5C518;
+  color: #ffee05;
 }
 
 .textColor-7 {
