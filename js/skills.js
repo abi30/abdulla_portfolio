@@ -3,8 +3,6 @@ let totalSkills= [];
 
 
 
-
-
 class Skill {
   skillsId;
   skillsName;
@@ -22,7 +20,6 @@ class Skill {
   divideDiv1() {
     return `
       
-
         <div class="col  cardTools">
         <div class="card toolCard">
         <div class="ownImgTools">  
@@ -59,7 +56,6 @@ new Skill(9,"Java","java.png");
 new Skill(10,"C","pro_c.png");
 new Skill(11,"Php","php.png");
 new Skill(12,"Symfony","symfony.png");
-new Skill(13,"WordPrass","word.png");
 new Skill(13,"Git","git.png");
 
 
